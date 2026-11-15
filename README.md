@@ -2,9 +2,9 @@
 
 **Independent research in Vision-Language-Action (VLA) inference efficiency, GPU profiling, and closed-loop robot evaluation.**
 
-> **Research question:** How far can we reduce the inference latency of an existing fine-tuned π0.5 robot policy while maintaining successful robot manipulation? Once flow-matching denoising is reduced to two steps, **which remaining operations dominate action-generation latency**, and can targeted runtime optimizations accelerate them further?
+> How far can we reduce the inference latency of an existing fine-tuned π0.5 robot policy while maintaining successful robot manipulation? Once flow-matching denoising is reduced to two steps, **which remaining operations dominate action-generation latency**, and can targeted runtime optimizations accelerate them further?
 
-This repository studies the **inference system**, not a newly trained VLA model. It combines controlled GPU microbenchmarks, component-level profiling, and robot success measurements in **LIBERO Spatial**. The planned research contribution is to identify and optimize a measured bottleneck, then demonstrate benefits against a **same-step, unmodified policy baseline** and validate the optimized policy in closed-loop simulation.
+This repository studies the **inference system**, not a newly trained VLA model. It combines controlled GPU microbenchmarks, component-level profiling, and robot success measurements in **LIBERO Spatial**. The planned research contribution is to identify and optimize a measured bottleneck, then demonstrate benefits against a **ame-step, unmodified policy baseline** and validate the optimized policy in closed-loop simulation.
 
 **Artifacts:** [Research code and results](https://github.com/Prer1n1/pi05-libero-inference-optimization) · [Hugging Face experiment dataset (currently private)](https://huggingface.co/datasets/Prerana9/pi05-libero-inference-benchmarks)
 
