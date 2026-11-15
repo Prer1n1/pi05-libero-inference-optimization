@@ -1,0 +1,92 @@
+{
+  "total_chunks": 8,
+  "measured_chunks_excluding_first": 7,
+  "chunk_latency": {
+    "mean_ms": 188.677,
+    "median_ms": 179.473,
+    "p95_ms": 209.032
+  },
+  "sampling_latency": {
+    "mean_ms": 184.251,
+    "median_ms": 175.402,
+    "p95_ms": 203.602
+  },
+  "denoising_latency": {
+    "mean_ms": 147.809,
+    "median_ms": 147.029,
+    "p95_ms": 149.575
+  },
+  "other_sampling_latency": {
+    "mean_ms": 36.443,
+    "median_ms": 28.268,
+    "p95_ms": 54.027
+  },
+  "denoise_calls_per_chunk": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+  ],
+  "gpu_peak_allocated_gb": 8.863,
+  "raw_records": [
+    {
+      "denoise_ms": 220.8094783127308,
+      "denoise_calls": 10,
+      "sample_ms": 560.3010910563171,
+      "other_sample_ms": 339.4916127435863,
+      "chunk_ms": 585.3935838676989
+    },
+    {
+      "denoise_ms": 154.44695064797997,
+      "denoise_calls": 10,
+      "sample_ms": 214.32809019461274,
+      "other_sample_ms": 59.88113954663277,
+      "chunk_ms": 219.64533301070333
+    },
+    {
+      "denoise_ms": 149.57504905760288,
+      "denoise_calls": 10,
+      "sample_ms": 203.60236894339323,
+      "other_sample_ms": 54.02731988579035,
+      "chunk_ms": 209.03157675638795
+    },
+    {
+      "denoise_ms": 147.02914096415043,
+      "denoise_calls": 10,
+      "sample_ms": 178.21714095771313,
+      "other_sample_ms": 31.1879999935627,
+      "chunk_ms": 183.01722966134548
+    },
+    {
+      "denoise_ms": 147.13403629139066,
+      "denoise_calls": 10,
+      "sample_ms": 175.40193814784288,
+      "other_sample_ms": 28.267901856452227,
+      "chunk_ms": 179.4726001098752
+    },
+    {
+      "denoise_ms": 146.36207465082407,
+      "denoise_calls": 10,
+      "sample_ms": 174.12178218364716,
+      "other_sample_ms": 27.759707532823086,
+      "chunk_ms": 178.16121084615588
+    },
+    {
+      "denoise_ms": 144.92629887536168,
+      "denoise_calls": 10,
+      "sample_ms": 171.2485123425722,
+      "other_sample_ms": 26.32221346721053,
+      "chunk_ms": 174.78055227547884
+    },
+    {
+      "denoise_ms": 145.1862007379532,
+      "denoise_calls": 10,
+      "sample_ms": 172.83849278464913,
+      "other_sample_ms": 27.652292046695948,
+      "chunk_ms": 176.63155868649483
+    }
+  ]
+}
