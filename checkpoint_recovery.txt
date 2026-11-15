@@ -1,0 +1,20 @@
+Model: LeRobot pi0.5 LIBERO fine-tuned v044
+Hugging Face repository: lerobot/pi05_libero_finetuned_v044
+
+Expected model.safetensors SHA256:
+877b3ec1130548b69af7f8aeef3ec9d3fc7738040f0b9beb490857ec970997ae
+
+Working evaluation checkpoint argument:
+--policy.path=lerobot/pi05_libero_finetuned
+
+New pod recovery:
+1. Recreate the LeRobot environment at the pinned commit.
+2. Download the verified checkpoint repository.
+3. Place the model files at the expected relative policy path.
+4. Verify the model checksum.
+5. Run a one-episode smoke test before resuming experiments.
+
+Required rendering environment:
+MUJOCO_GL=osmesa
+PYOPENGL_PLATFORM=osmesa
+PYTHONFAULTHANDLER=1
